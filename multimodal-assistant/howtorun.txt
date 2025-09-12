@@ -1,0 +1,8 @@
+# Run backend (in one terminal)
+uvicorn backend.main:app --reload --port 8000
+
+
+# Run frontend (in another terminal)
+streamlit run frontend/app.py
+
+ ollama serve

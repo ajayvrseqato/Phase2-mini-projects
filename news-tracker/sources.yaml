@@ -1,0 +1,19 @@
+regions:
+  global:
+    - https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en
+  india:
+    - https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en
+
+categories:
+  world:
+    - https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZ4ZERBU0JXVnVMVWRDR2dKSlZtdG9B?hl=en-IN&gl=IN&ceid=IN:en
+  business:
+    - https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZ4ZERBU0JXVnVMVWRDR2dKR1ZqZG9B?hl=en-IN&gl=IN&ceid=IN:en
+  technology:
+    - https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZ4ZERBU0JXVnVMVWRDR2dKSWpsQ2dB?hl=en-IN&gl=IN&ceid=IN:en
+
+keywords:
+  - query: "artificial intelligence"
+    feed: "https://news.google.com/rss/search?q=artificial%20intelligence&hl=en-IN&gl=IN&ceid=IN:en"
+  - query: "stock market"
+    feed: "https://news.google.com/rss/search?q=stock%20market&hl=en-IN&gl=IN&ceid=IN:en"

@@ -1,0 +1,5 @@
+system_msg = {"role": "system", "content": "You are a helpful multimodal assistant. Be concise and accurate."}
+resp = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[system_msg, {"role": "user", "content": content}],
+)
